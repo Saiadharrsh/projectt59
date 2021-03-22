@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #0A2E36;
+    font-size: 20px;
+    color: lime;
+}
+
+img{
+    width: 120px;
+   border-radius: 50px;
+    text-align:center;
+
+
+
+}
+
+#bio {
+    padding: 20px;
+    font-size: 20px;
+    text-align: Center;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+.link {
+    float: left;
+    color: chocolate;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 17px;
+}
+
+.link:hover {
+    background-color: limegreen;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: red;
+    position: fixed;
+    z-index: 10;
+
+}
+
+#hobbyname {
+    font-family: 'Inconsolata', monospace
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size:7px;
+}
+
+
+
+
+.inner {
+    text-align:center;
+}
+.bottommenu {
+
+  list-style: none;
+    font-family: fantasy;
+    float:top;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: red;
+    position:relative;
+    z-index: 10;  
+    text-align:left;
+}
+.buttton {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size:9px;
+}
